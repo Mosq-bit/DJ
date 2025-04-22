@@ -123,3 +123,14 @@
         padding-bottom: 20px;
     }
 }
+@media (max-width:390px){
+    .footer__info {
+        gap: 5px;
+    }
+    .footer__info-text,
+    .footer__info-text-mail,
+    .footer__info-name,
+    .footer__info-text-link a{
+        font-size: 10px;
+    }
+}
