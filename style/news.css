@@ -86,3 +86,23 @@
         font-size: 16px;
     }
 }
+@media (max-width:400px){
+    .news__card {
+        max-width: 300px;
+    }
+    .news__card-info {
+        max-width: 300px;
+    }
+    .news__card-descr {
+        font-size: 14px;
+    }
+}
+@media (max-width:350px){
+    .news__card {
+        max-width: 280px;
+    }
+    .news__card-info {
+        max-width: 280px;
+    }
+    
+}
