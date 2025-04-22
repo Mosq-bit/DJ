@@ -50,7 +50,7 @@
 }
 
 .about__content-label {
-    margin-top: 40px;
+    margin: 40px auto 0;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -100,10 +100,8 @@
     }
 }
 @media (max-width:870px){
-    .about{
-        /* width: 100%; */
-    }
     .about__wrapper {
+        margin: 0 auto;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
