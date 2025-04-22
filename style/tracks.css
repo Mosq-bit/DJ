@@ -103,6 +103,9 @@
 }
 
 @media (max-width:1000px) {
+     .tracks__section {
+        margin-top: 80px;
+    }
     .tracks__content-title {
        font-size: 38px;
     }
