@@ -196,7 +196,7 @@
 
 @media (max-width:560px) {
     .swiper-wrapper {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .swiper-button-next,
@@ -208,19 +208,15 @@
         display: block;
     }
 }
-
-@media (max-width:354px) {
-    .card__slider-subtitle {
-        font-size: 9px;
+@media (max-width:390px) {
+    .swiper-wrapper {
+        margin-bottom: 40px;
     }
 }
 
-@media (max-width:390px) {
-    .swiper-wrapper {
-        padding-bottom: 30px;
-    }
-
-    .swiper-pagination {
-        bottom: -12px;
+@media (max-width:354px) {
+    
+    .card__slider-subtitle {
+        font-size: 9px;
     }
 }
