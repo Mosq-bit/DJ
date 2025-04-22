@@ -1,0 +1,13 @@
+@import url('style/reset.css');
+@import url('style/basic.css');
+@import url('style/variables.css');
+@import url('style/header.css');
+@import url('style/nav__burger.css');
+@import url('style/header__content.css');
+@import url('style/news.css');
+@import url('style/about.css');
+@import url('style/text.css');
+@import url('style/tracks.css');
+@import url('style/gallery.css');
+@import url('style/events.css');
+@import url('style/footer.css');

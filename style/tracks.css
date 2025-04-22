@@ -1,0 +1,138 @@
+.tracks__section {
+    margin-top: 180px;
+}
+
+.tracks {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 60px;
+}
+
+.tarcks__pic {}
+
+.tracks__content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tracks__content-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    font-weight: 700;
+    font-size: 48px;
+}
+.tracks__wrapper{
+    margin-left: 25px;
+}
+.track__list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+
+    list-style: decimal-leading-zero;
+
+    margin-right: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0.5;
+    transition: .3s ease-in;
+}
+.tarck__list-item p{
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+    color: #ffff;
+    transition: .3s ease-in;
+}
+.tarck__list-item:hover p,
+.tarck__list-item:hover
+{
+    color: var(--purpure);
+}
+
+
+
+.tracks__social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.tracks__social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.tracks__social-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--white);
+    transition: .3s ease-in;
+}
+
+.tracks__social-link:hover{
+    color: var(--purpure);
+}
+.tracks-icon{
+    width: 30px;
+    height: 30px;
+    transition: .3s ease-in;
+}
+
+.tracks-icon:hover{
+    fill:var(--purpure)
+}
+
+@media (max-width:1000px) {
+    .tracks__content-title {
+       font-size: 38px;
+    }
+    .playlist__song {
+        font-size: 16px;
+    }
+}
+@media (max-width:840px){
+    .tracks {
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+}
+@media (max-width:570px){
+    .tracks__content-title {
+        font-size: 28px;
+     }
+     .playlist__song {
+         font-size: 14px;
+     }
+     .tracks__social {
+        font-size: 14px;
+        gap: 20px;
+     }
+     .tracks__social-link {
+    
+        font-size: 12px;
+    }
+}

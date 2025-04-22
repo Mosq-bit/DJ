@@ -1,0 +1,69 @@
+.header__section {
+    padding: 30px 0 276px 0;
+
+    /* height: 1000px; */
+    background:linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #1c1b21 92.19%),
+    url(/img/Hero-bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+
+    gap: min(65px, 4vw);
+}
+.header__logo-link {
+}
+.header__nav {
+    padding: 0 10px;
+}
+.header__nav-list {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 56px;
+
+}
+.header__nav-item {
+}
+.header__nav-link {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    transition: text-shadow .2s ease-in;
+}
+
+.header__nav-link:hover{
+    text-shadow: 2px -2px var(--purpure);
+}
+
+@media (max-width:897px) {
+    .header{
+        flex-direction: column;
+    }
+    .header__nav-list {
+        gap: 36px;
+    }
+    .header__nav-link{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:510px) {
+    .header__nav {
+        display: none;
+     }
+}
+
+@media (max-width:510px){
+    .header{
+        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,124 @@
+.footer__section {
+    margin-top: 180px;
+}
+
+.footer__wrapper {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer__info {
+    width: 533px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.footer__column-lt {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.footer__info-text {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer__info-text-mail {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer__column__rt {}
+
+.footer__info-name {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.footer__info-text-link a {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__present {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+@media (max-width:560px) {
+    .footer__section {
+        margin-top: 80px;
+    }
+
+    .footer__info {
+        max-width: 533px;
+        gap: 15px;
+    }
+
+    .footer__social {
+        gap: 15px;
+    }
+}
+
+@media (max-width:520px) {
+
+    .footer__info-text,
+    .footer__info-text-mail,
+    .footer__info-name,
+    .footer__info-text-link a {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:460px) {
+    .footer__wrapper {
+        gap: 20px;
+    }
+    .footer__info {
+        margin: 0 auto;
+        max-width: 340px;
+        gap: 10px;
+    }
+
+    .footer__info-text,
+    .footer__info-text-mail,
+    .footer__info-name,
+    .footer__info-text-link a {
+        font-size: 12px;
+    }
+
+    .footer__social {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .footer__present {
+        margin-top: 0;
+        padding-bottom: 20px;
+    }
+}

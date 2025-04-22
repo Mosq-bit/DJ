@@ -1,0 +1,128 @@
+.about__section {
+    padding: 0 10px;
+    margin-top: 179px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    gap: 20px;
+}
+.about__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.about__title-logo {
+}
+.about__title h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+}
+.about__content {
+    padding-top: 50px;
+    /* max-width: 540px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.about__content-descr {
+    font-size: 16px;
+    opacity: 0.7;
+}
+.about__img {
+}
+.about__pic {
+    max-width: 445px;
+}
+
+.about__content-label {
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 52px;
+}
+.about__content-label--info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    gap: 20px;
+
+    cursor: pointer;
+}
+
+
+.info-descr {
+    font-size: 18px;
+    font-weight: 600;
+}
+@media (max-width:1600px) {
+    .about__wrapper {
+        gap: 50px;
+    }
+    .about__content {
+        padding-top: 25px;
+        max-width: 400px;
+    }
+    .about__title h3{
+        font-size: 38px;
+    }
+} 
+@media (max-width:1440px){
+    .about__section{
+        margin-top: 100px;
+    }
+    .about__wrapper {
+        gap: 25px;
+    }
+    .info-descr {
+        font-size: 16px;
+    }
+} 
+@media (max-width:870px){
+    .about{
+        width: 100%;
+    }
+    .about__wrapper {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .about__content {
+        padding-top: 25px;
+        max-width: 100%;
+    }
+} 
+@media (max-width:560px){
+    .about__content-label {
+        margin-top: 20px;
+    
+        gap: 20px;
+    }
+    .info-descr {
+        font-size: 14px;
+    }
+    .about__content-descr {
+        font-size: 14px;
+    }
+}
+@media (max-width:370px){
+    .about__title h3{
+        font-size: 28px;
+    }
+}
